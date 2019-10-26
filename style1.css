@@ -1,0 +1,103 @@
+body{
+    background-image: url(./bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vw;
+    width: 100vw;
+}
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    font-size: 62px;
+    margin-top: 20px;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+
+#page-banner{
+    background: #eee ;
+    padding: 10px 0;
+
+}
+
+#page-banner h1,{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.input{
+    text-align: center;
+    margin-top: 40px;
+
+}
+button{
+    border-radius: 4px;
+
+}
+input{
+    border-radius: 4px;
+    border-style:  solid;
+}
+button.add:hover{
+    transform: scale(0.9);
+    background-color: #D3D3D3;
+}
+button.clear:hover{
+    transform: scale(0.9);
+    background-color: #D3D3D3;
+}
+
+#todo-list, #add-book, #tabbed-content{
+    margin: 30px;
+}
+
+#todo-list ul, #tabbed-content ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li{
+    padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px;
+    font-size: 20px;
+    font-weight: 499;
+}
+
+#todo-list li:hover{
+    border-color: #808080;
+}
+
+
+.delete{
+  float: right;
+  background: #C0C0C0;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+.delete:hover{
+    background: #808080;
+}
+#hide-todo{
+  width: 400px;
+  margin: 0 auto;
+}
+
+#func{
+  text-align: center;
+}
